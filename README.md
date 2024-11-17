@@ -12,4 +12,4 @@ This repository contains an implementation of quantum teleportation using Qiskit
 
 Consider an EPR pair in the state
 
-$|\Psi⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$
+$$|\Psi⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
