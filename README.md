@@ -9,3 +9,5 @@ This repository contains an implementation of quantum teleportation using Qiskit
 - Based on the interaction and measurement of |ψ⟩ with one half of the EPR pair, by measuring the second half, and knowing the classical results of the first measurement, we may determine the state |ψ⟩.
 
 ### The Circuit
+
+Consider an EPR pair in the state $|\Psi$
