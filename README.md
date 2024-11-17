@@ -5,7 +5,7 @@ This repository contains an implementation of quantum teleportation using Qiskit
 ### Overview
 
 - Quantum teleportation is a technique for moving quantum states in the absence of communication channels linkning the sender and recipient
-- If we want to send information about an arbitrary qubit |\Psi⟩
+- If we want to send information about an arbitrary qubit |ψ⟩, we can do this by its interaction with one half of an EPR pair.
 
 ## Project Evolution
 I decided to make the following changes to improve its accuracy:
