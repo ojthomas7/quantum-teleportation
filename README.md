@@ -24,11 +24,13 @@ The aim of a quantum teleportation circuit is to transfer information about a qu
 <i>Quantum teleportation circuit, created with IBM composer and the Qiskit SDK. An arbitrary qubit interacts with an entangled Bell state via a CNOT followed by a Hadamard gate. Measurements are made of the arbitrary qubit and one half of the EPR pair, and the relavant transformations are made to the second half of the EPR pair depending on the results of this measurement.</i>
 </p> 
 
+## The Process:
+
 Let some arbitrary quantum state $|\Psi\rangle$ be:
 
 $$|\Psi \rangle = \alpha |0\rangle + \beta |1\rangle$$
 
-Where $\alpha$ and $\beta$ satisfy the Born rule, where the absolute values of $\alpha$ and $\beta$ are proportional to the probability of $|\Psi\rangle$ being in state $|0\rangle$ and $|1\rangle$ respectively, and $\alpha^2 + \beta^2 = 1$.
+This is the quantum state we will be transmitting, where $\alpha$ and $\beta$ satisfy the Born rule (the absolute values of $\alpha$ and $\beta$ are proportional to the probability of $|\Psi\rangle$ being in state $|0\rangle$ and $|1\rangle$ respectively, and $\alpha^2 + \beta^2 = 1$).
 
 
 This state, $|\Psi\rangle$, is the state we will be transmitting via its interaction with a separate entangled pair of qubits.
