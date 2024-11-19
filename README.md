@@ -12,7 +12,9 @@ This repository contains an implementation of quantum teleportation using Qiskit
 
 Let some arbitrary quantum state $|\Psi\rangle$ be:
 
-$$|\Psi \rangle = \alpha \0\rangle + \beta |1\rangle$$
+$$|\Psi \rangle = \alpha |0\rangle + \beta |1\rangle$$
+
+Where $\alpha$ and $\beta$ satisfy the Born rule, where the absolute values of $\alpha$ and $\beta$ are proportional to the probability of $|\Psi\rangle$ being in state $|0\rangle$ and $|1\rangle$ respectively, and $\alpha^2 + \beta^2 = 1$.
 
 
 Consider an EPR pair in the state
