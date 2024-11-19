@@ -38,3 +38,7 @@ This state, $|\Psi\rangle$, is the state we will be transmitting via its interac
 Next, consider an EPR pair in the $|\beta_{00}$ state. There are four Bell states, however this one is chosen for convenience.
 
 $$|\beta_{00} \rangle = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
+
+The qubits in this EPR pair are separated in space.
+
+
