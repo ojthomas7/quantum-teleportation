@@ -104,4 +104,4 @@ These results are demonstrated in IBM composer below:
 </p>
 <p align = "center">
 
-As we can see, the state of q[0] is 'teleported' via an entangled EPR pair.
+As we can see, the state of q[0] is 'teleported' to q[2] via an entangled EPR pair, shown by the phase indicators.
