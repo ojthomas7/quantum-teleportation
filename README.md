@@ -7,8 +7,22 @@ This repository contains an implementation of quantum teleportation using Qiskit
 - Quantum teleportation is a technique for moving quantum states in the absence of communication channels linkning the sender and recipient
 - If we want to send information about an arbitrary qubit $|\Psi⟩$, we can do this by its interaction with one half of an EPR pair.
 - Based on the interaction and measurement of $|\Psi⟩$ with one half of the EPR pair, by measuring the second half, and knowing the classical results of the first measurement, we may determine the state $|\Psi⟩$.
+- SIGNIFICANCE
 
-### The Circuit
+### Quantum Teleportation
+
+## Objective:
+
+The aim of a quantum teleportation circuit is to transfer information about a quantum state through its interaction with an entangled EPR pair.
+
+## The Circuit:
+
+<p align="center">
+  <img src="teleportation.jpeg" alt="Image 1" width="200"/>
+</p>
+<p align = "center">
+<i>Electron density plot for [n, 0, 0] quantum states</i>
+</p> 
 
 Let some arbitrary quantum state $|\Psi\rangle$ be:
 
@@ -21,4 +35,4 @@ This state, $|\Psi\rangle$, is the state we will be transmitting via its interac
 
 Next, consider an EPR pair in the $|\beta_{00}$ state. There are four Bell states, however this one is chosen for convenience.
 
-$$|\beta_{00}⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
+$$|\beta_{00} \rangle = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
