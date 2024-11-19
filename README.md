@@ -53,4 +53,6 @@ $$|\Psi_0\rangle = |\Psi\rangle |\beta_{00}\rangle$$
 
 at the start of the circuit. This becomes:
 
-$$|\Psi_0\rangle = (\alpha |0\rangle + \beta |1\rangle)(\frac{1}{\sqrt{2}} (|00⟩ + |11⟩))$$
+$$|\Psi_0\rangle = (\alpha |0\rangle + \beta |1\rangle)(\frac{1}{\sqrt{2}} (|00⟩ + |11⟩)) = \frac{1}{\sqrt{2}} [\alpha |0\rangle (|00\rangle |11\rangle) + \beta|1\rangle(|00\rangle + |11\rangle)]$$
+
+Where the leftmost qubits are owned by our sender of $|\Psi\rangle$ and the right most are owned by ther recipient.
