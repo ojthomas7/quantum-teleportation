@@ -73,6 +73,15 @@ The order of these gates and interactions is important: the CNOT gate encodes th
 
 ### The Circuit - Measurement:
 
-The state $|\Psi_2\rangle$ can be rewritten by regrouping terms:
+The state $|\Psi_2\rangle$ can be rewritten by regrouping terms and using the associative property of tensor products:
 
 $$|\Psi_2\rangle = \frac{1}{2}[|00\rangle(\alpha|0\rangle + \beta|1\rangle) + |01\rangle(\alpha|1\rangle + \beta|0\rangle) + |10\rangle(\alpha|0\rangle - \beta|1\rangle) + |11\rangle(\alpha|1\rangle - \beta|0\rangle)]$$
+
+Measurement is then made of the arbitrary qubit $|\Psi\rangle$ and the senders half of the EPR pair. Based on the outcomes of these measurements we may determine the state of the third qubit, the second half of the EPR pair owned by the recipient. 
+
+For example, if the state is measured to be $|00\rangle$, the third qubit is in the state $|\Psi\rangle = \alpha |0\rangle + \beta |1\rangle$. If other results come from the measurement, we make the reuired transformations to restore the third qubit to the correct state:
+
+$00 \rightarrow |\psi_3(00)\rangle \equiv \alpha|0\rangle + \beta|1\rangle$
+$01 \rightarrow |\psi_3(01)\rangle \equiv \alpha|1\rangle + \beta|0\rangle$
+$10 \rightarrow |\psi_3(10)\rangle \equiv \alpha|0\rangle - \beta|1\rangle$
+$11 \rightarrow |\psi_3(11)\rangle \equiv \alpha|1\rangle - \beta|0\rangle$
