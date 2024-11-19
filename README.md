@@ -10,6 +10,11 @@ This repository contains an implementation of quantum teleportation using Qiskit
 
 ### The Circuit
 
+Let some arbitrary quantum state $|\Psi\rangle$ be:
+
+$$|\Psi \rangle = \alpha \0\rangle + \beta |1\rangle$$
+
+
 Consider an EPR pair in the state
 
 $$|\Psi⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
