@@ -19,6 +19,6 @@ Where $\alpha$ and $\beta$ satisfy the Born rule, where the absolute values of $
 
 This state, $|\Psi\rangle$, is the state we will be transmitting via its interaction with a separate entangled pair of qubits.
 
-Next, consider an EPR pair in the $|\Beta_{00}$ state. There are four Bell states, however this one is chosen for convenience.
+Next, consider an EPR pair in the $|\beta_{00}$ state. There are four Bell states, however this one is chosen for convenience.
 
-$$|\Beta_{00}⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
+$$|\beta_{00}⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
