@@ -26,6 +26,8 @@ The aim of a quantum teleportation circuit is to transfer information about a qu
 
 ## The Process:
 
+### Preliminary States:
+
 Let some arbitrary quantum state $|\Psi\rangle$ be:
 
 $$|\Psi \rangle = \alpha |0\rangle + \beta |1\rangle$$
@@ -46,6 +48,8 @@ $$|\Psi\rangle = \alpha |0\rangle + \beta |1\rangle$$
 and the two entangled qubits:
 
 $$|\beta_{00} \rangle = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
+
+### Entering the Circuit
 
 Now, to begin with we have the state
 
