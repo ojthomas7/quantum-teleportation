@@ -81,7 +81,10 @@ Measurement is then made of the arbitrary qubit $|\Psi\rangle$ and the senders h
 
 For example, if the state is measured to be $|00\rangle$, the third qubit is in the state $|\Psi\rangle = \alpha |0\rangle + \beta |1\rangle$. If other results come from the measurement, we make the reuired transformations to restore the third qubit to the correct state:
 
-$00 \rightarrow |\psi_3(00)\rangle \equiv \alpha|0\rangle + \beta|1\rangle$
-$01 \rightarrow |\psi_3(01)\rangle \equiv \alpha|1\rangle + \beta|0\rangle$
-$10 \rightarrow |\psi_3(10)\rangle \equiv \alpha|0\rangle - \beta|1\rangle$
-$11 \rightarrow |\psi_3(11)\rangle \equiv \alpha|1\rangle - \beta|0\rangle$
+$$00 \rightarrow |\psi_3(00)\rangle \equiv \alpha|0\rangle + \beta|1\rangle$$
+
+$$01 \rightarrow |\psi_3(01)\rangle \equiv \alpha|1\rangle + \beta|0\rangle$$
+
+$$10 \rightarrow |\psi_3(10)\rangle \equiv \alpha|0\rangle - \beta|1\rangle$$
+
+$$11 \rightarrow |\psi_3(11)\rangle \equiv \alpha|1\rangle - \beta|0\rangle$$
