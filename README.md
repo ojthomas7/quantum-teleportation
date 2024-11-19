@@ -39,6 +39,18 @@ Next, consider an EPR pair in the $|\beta_{00}$ state. There are four Bell state
 
 $$|\beta_{00} \rangle = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
 
-The qubits in this EPR pair are separated in space.
+The qubits in this EPR pair are separated in space, and we therefore have three qubits to consider:
 
+$$|\Psi\rangle = \alpha |0\rangle + \beta |1\rangle$$
 
+and the two entangled qubits:
+
+$$|\beta_{00} \rangle = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
+
+Now, to begin with we have the state
+
+$$|\Psi_0\rangle = |\Psi\rangle |\beta_{00}\rangle$$
+
+at the start of the circuit. This becomes:
+
+$$|\Psi_0\rangle = (\alpha |0\rangle + \beta |1\rangle)(\frac{1}{\sqrt{2}} (|00⟩ + |11⟩))$$
