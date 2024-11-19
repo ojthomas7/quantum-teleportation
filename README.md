@@ -21,7 +21,7 @@ The aim of a quantum teleportation circuit is to transfer information about a qu
   <img src="teleportation.jpeg" alt="Image 1" width="600"/>
 </p>
 <p align = "center">
-<i>Electron density plot for [n, 0, 0] quantum states</i>
+<i>Quantum teleportation circuit, created with IBM composer and the Qiskit SDK. An arbitrary qubit interacts with an entangled Bell state via a CNOT followed by a Hadamard gate. Measurements are made of the arbitrary qubit and one half of the EPR pair, and the relavant transformations are made to the second half of the EPR pair depending on the results of this measurement.</i>
 </p> 
 
 Let some arbitrary quantum state $|\Psi\rangle$ be:
