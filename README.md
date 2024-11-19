@@ -18,7 +18,7 @@ The aim of a quantum teleportation circuit is to transfer information about a qu
 ## The Circuit:
 
 <p align="center">
-  <img src="teleportation.jpeg" alt="Image 1" width="200"/>
+  <img src="teleportation.jpeg" alt="Image 1" width="400"/>
 </p>
 <p align = "center">
 <i>Electron density plot for [n, 0, 0] quantum states</i>
