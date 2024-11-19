@@ -90,3 +90,21 @@ $$10 \rightarrow |\psi_3(10)\rangle \equiv \alpha|0\rangle - \beta|1\rangle$$
 $$11 \rightarrow |\psi_3(11)\rangle \equiv \alpha|1\rangle - \beta|0\rangle$$
 
 So if the first qubit is measured to be $|1\rangle$, we rotate $\pi$ radians using a $Z$ gate, and if the second qubit is measured to be $|1\rangle$, we rotate $\pi$ radians using an $X$ gate.
+
+## Results:
+
+These results are demonstrated in IBM composer below:
+
+<p align="center">
+  <img src="circuit1.jpeg" alt="Image 1" width="600"/>
+</p>
+<p align = "center">
+<i>Quantum teleportation circuit, created with IBM composer and the Qiskit SDK. An arbitrary qubit interacts with an entangled Bell state via a CNOT followed by a Hadamard gate. Measurements are made of the arbitrary qubit and one half of the EPR pair, and the relavant transformations are made to the second half of the EPR pair depending on the results of this measurement.</i>
+</p> 
+
+<p align="center">
+  <img src="circuit2.jpeg" alt="Image 1" width="600"/>
+</p>
+<p align = "center">
+<i>Quantum teleportation circuit, created with IBM composer and the Qiskit SDK. An arbitrary qubit interacts with an entangled Bell state via a CNOT followed by a Hadamard gate. Measurements are made of the arbitrary qubit and one half of the EPR pair, and the relavant transformations are made to the second half of the EPR pair depending on the results of this measurement.</i>
+</p> 
