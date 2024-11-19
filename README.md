@@ -49,7 +49,7 @@ and the two entangled qubits:
 
 $$|\beta_{00} \rangle = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
 
-### Entering the Circuit:
+### The Circuit - Interactions and Encoding:
 
 Now, to begin with we have the state
 
@@ -68,3 +68,11 @@ $$|\Psi_1\rangle = \frac{1}{\sqrt{2}} [\alpha |0\rangle (|00\rangle |11\rangle) 
 and then interacts with a Hadamard gate, transforming the basis states into a superposition:
 
 $$|\Psi_2\rangle = \frac{1}{2} [\alpha (|0\rangle + |1\rangle)(|00\rangle |11\rangle) + \beta(|0\rangle - |1\rangle )(|10\rangle + |01\rangle)]$$
+
+The order of these gates and interactions is important: the CNOT gate encodes the quantum information of the first state into the interaction between $|\Psi\rangle$ and $|\beta_{00}$ before it is placed into a superposition by the Hadamard gate.
+
+### The Circuit - Measurement:
+
+The state $|\Psi_2\rangle$ can be rewritten by regrouping terms:
+
+$$|\Psi_2\rangle = \frac{1}{2}[|00\rangle(\alpha|0\rangle + \beta|1\rangle) + |01\rangle(\alpha|1\rangle + \beta|0\rangle) + |10\rangle(\alpha|0\rangle - \beta|1\rangle) + |11\rangle(\alpha|1\rangle - \beta|0\rangle)]$$
