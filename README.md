@@ -79,7 +79,7 @@ $$|\Psi_2\rangle = \frac{1}{2}[|00\rangle(\alpha|0\rangle + \beta|1\rangle) + |0
 
 Measurement is then made of the arbitrary qubit $|\Psi\rangle$ and the senders half of the EPR pair. Based on the outcomes of these measurements we may determine the state of the third qubit, the second half of the EPR pair owned by the recipient. 
 
-For example, if the state is measured to be $|00\rangle$, the third qubit is in the state $|\Psi\rangle = \alpha |0\rangle + \beta |1\rangle$. If other results come from the measurement, we make the reuired transformations to restore the third qubit to the correct state:
+For example, if the state is measured to be $|00\rangle$, the third qubit is in the state $|\Psi\rangle = \alpha |0\rangle + \beta |1\rangle$. If other results come from the measurement, we make the required transformations to restore the third qubit to the correct state:
 
 $$00 \rightarrow |\psi_3(00)\rangle \equiv \alpha|0\rangle + \beta|1\rangle$$
 
@@ -88,3 +88,5 @@ $$01 \rightarrow |\psi_3(01)\rangle \equiv \alpha|1\rangle + \beta|0\rangle$$
 $$10 \rightarrow |\psi_3(10)\rangle \equiv \alpha|0\rangle - \beta|1\rangle$$
 
 $$11 \rightarrow |\psi_3(11)\rangle \equiv \alpha|1\rangle - \beta|0\rangle$$
+
+So if the first qubit is measured to be $|1\rangle$, we rotate $\pi$ radians using a $Z$ gate, and if the second qubit is measured to be $|1\rangle$, we rotate $\pi$ radians using an $X$ gate.
