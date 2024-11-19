@@ -17,6 +17,8 @@ $$|\Psi \rangle = \alpha |0\rangle + \beta |1\rangle$$
 Where $\alpha$ and $\beta$ satisfy the Born rule, where the absolute values of $\alpha$ and $\beta$ are proportional to the probability of $|\Psi\rangle$ being in state $|0\rangle$ and $|1\rangle$ respectively, and $\alpha^2 + \beta^2 = 1$.
 
 
-Consider an EPR pair in the state
+This state, $|\Psi\rangle$, is the state we will be transmitting via its interaction with a separate entangled pair of qubits.
 
-$$|\Psi⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
+Next, consider an EPR pair in the $|\Beta_{00}$ state. There are four Bell states, however this one is chosen for convenience.
+
+$$|\Beta_{00}⟩ = \frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
