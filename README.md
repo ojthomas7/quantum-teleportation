@@ -30,7 +30,7 @@ Let some arbitrary quantum state $|\Psi\rangle$ be:
 
 $$|\Psi \rangle = \alpha |0\rangle + \beta |1\rangle$$
 
-This is the quantum state we will be transmitting, where $\alpha$ and $\beta$ satisfy the Born rule (the absolute values of $\alpha$ and $\beta$ are proportional to the probability of $|\Psi\rangle$ being in state $|0\rangle$ and $|1\rangle$ respectively, and $\alpha^2 + \beta^2 = 1$).
+Where $\alpha$ and $\beta$ satisfy the Born rule (the absolute values of $\alpha$ and $\beta$ are proportional to the probability of $|\Psi\rangle$ being in state $|0\rangle$ and $|1\rangle$ respectively, and $\alpha^2 + \beta^2 = 1$).
 
 
 This state, $|\Psi\rangle$, is the state we will be transmitting via its interaction with a separate entangled pair of qubits.
